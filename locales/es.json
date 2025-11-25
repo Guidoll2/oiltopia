@@ -1,0 +1,141 @@
+{
+  "header": {
+    "nav": {
+      "shop": "Tienda",
+      "varieties": "Variedades",
+      "about": "Sobre Nosotros",
+      "blog": "Blog",
+      "contact": "Contacto"
+    },
+    "account": "Mi cuenta",
+    "cart": "Carrito de compras"
+  },
+  "cart": {
+    "title": "Tu Selección",
+    "close": "Cerrar carrito",
+    "freeShipping": "¡Tienes envío gratuito!",
+    "remainingForFreeShipping": "Te faltan",
+    "forFreeShipping": "para envío gratis",
+    "emptyCart": "Tu carrito está vacío",
+    "decreaseQuantity": "Disminuir cantidad",
+    "increaseQuantity": "Aumentar cantidad",
+    "removeItem": "Eliminar producto",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "free": "GRATIS",
+    "total": "Total",
+    "checkout": "Finalizar Compra"
+  },
+  "demo": {
+    "title": "Concepto Digital Oiltopia",
+    "description": "Estás navegando por una demostración de diseño de alta fidelidad. La integración de pasarela de pagos, gestión de usuarios y backend requiere la fase final de desarrollo.",
+    "contactButton": "Contactar al Desarrollador",
+    "continueButton": "Seguir Explorando",
+    "footerNote": "Demo creada con Next.js, Tailwind CSS y Framer Motion"
+  },
+  "footer": {
+    "description": "Aceite de oliva virgen extra de calidad premium. Desde nuestros olivares en Córdoba hasta tu mesa, ofrecemos productos únicos de cosecha temprana y edición limitada.",
+    "contact": {
+      "title": "Contacto"
+    },
+    "legal": {
+      "title": "Legal",
+      "legalNotice": "Aviso legal",
+      "qualityPolicy": "Política de calidad",
+      "privacyPolicy": "Política de privacidad",
+      "cookiesPolicy": "Política de cookies"
+    },
+    "rights": "Todos los derechos reservados."
+  },
+  "hero": {
+    "title": "Aceite de Oliva",
+    "titleExtra": "Virgen Extra,",
+    "titleHighlight": "sin concesiones",
+    "subtitle": "Desde Andalucía directo a tu cocina.",
+    "subtitleSecond": "Compra online y saborea la diferencia.",
+    "cta": {
+      "shop": "Ver productos",
+      "varieties": "Conocer variedades"
+    },
+    "trust": {
+      "earlyHarvest": {
+        "title": "Cosecha temprana",
+        "subtitle": "Recolección en octubre"
+      },
+      "coldPressed": {
+        "title": "Prensado en frío",
+        "subtitle": "Extracción a <27°C"
+      },
+      "limitedEdition": {
+        "title": "Edición limitada",
+        "subtitle": "Producción numerada"
+      },
+      "andalusia": {
+        "title": "Desde Andalucía",
+        "subtitle": "Olivares de Jaén"
+      }
+    },
+    "badge": "PREMIUM",
+    "imageAlt": "Botella de aceite de oliva virgen extra Oiltopía"
+  },
+  "featuredProducts": {
+    "title": "Descubre nuestros aceites estrella",
+    "subtitle": "Selección premium de variedades únicas, cosecha temprana y edición limitada",
+    "products": {
+      "arbequina": {
+        "name": "Arbequina Premium",
+        "variety": "500ml",
+        "description": "Suave y afrutado con notas de almendra"
+      },
+      "picual": {
+        "name": "Picual Reserva",
+        "variety": "500ml",
+        "description": "Intenso y robusto con carácter"
+      },
+      "arbosana": {
+        "name": "Arbosana Selección",
+        "variety": "500ml",
+        "description": "Equilibrado con toques herbales"
+      },
+      "blend": {
+        "name": "Blend Bio 500 Exclusivo",
+        "variety": "750ml",
+        "description": "Mezcla artesanal de edición limitada"
+      }
+    },
+    "addToCart": "Añadir a la cesta",
+    "viewAll": "Ver todos los productos"
+  },
+  "process": {
+    "title": "Nuestro Proceso",
+    "subtitle": "Desde el olivar hasta tu mesa, cada etapa está diseñada para preservar la excelencia",
+    "steps": {
+      "harvest": {
+        "title": "Recolección Manual",
+        "description": "Selección cuidadosa en octubre para garantizar la frescura del fruto"
+      },
+      "coldPress": {
+        "title": "Prensado en Frío",
+        "description": "Extracción a <27°C para preservar polifenoles y aroma natural"
+      },
+      "bottling": {
+        "title": "Envasado en Origen",
+        "description": "Embotellado inmediato para sellar la calidad en cada gota"
+      },
+      "delivery": {
+        "title": "Envío Directo",
+        "description": "Del olivar a tu mesa sin intermediarios ni demoras"
+      }
+    }
+  },
+  "aboutSummary": {
+    "kicker": "Nuestra Historia",
+    "title": "Del campo a la botella",
+    "description": "Empresa fundada en 2009, con más de 15 años de excelencia. Proyecto de integración vertical que controla desde el campo hasta la botella para garantizar categoría premium.",
+    "cta": "Conoce nuestra historia",
+    "imageAlt": "Olivares de Oiltopía en Andalucía",
+    "certifications": {
+      "title": "Calidad y sostenibilidad certificada"
+    }
+  }
+}

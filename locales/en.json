@@ -1,0 +1,141 @@
+{
+  "header": {
+    "nav": {
+      "shop": "Shop",
+      "varieties": "Varieties",
+      "about": "About Us",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "account": "My account",
+    "cart": "Shopping cart"
+  },
+  "cart": {
+    "title": "Your Selection",
+    "close": "Close cart",
+    "freeShipping": "You have free shipping!",
+    "remainingForFreeShipping": "You need",
+    "forFreeShipping": "more for free shipping",
+    "emptyCart": "Your cart is empty",
+    "decreaseQuantity": "Decrease quantity",
+    "increaseQuantity": "Increase quantity",
+    "removeItem": "Remove item",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "free": "FREE",
+    "total": "Total",
+    "checkout": "Checkout"
+  },
+  "demo": {
+    "title": "Oiltopia Digital Concept",
+    "description": "You are browsing a high-fidelity design demonstration. Payment gateway integration, user management and backend require the final development phase.",
+    "contactButton": "Contact Developer",
+    "continueButton": "Continue Exploring",
+    "footerNote": "Demo created with Next.js, Tailwind CSS and Framer Motion"
+  },
+  "footer": {
+    "description": "Premium quality extra virgin olive oil. From our olive groves in Córdoba to your table, we offer unique early harvest and limited edition products.",
+    "contact": {
+      "title": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "legalNotice": "Legal notice",
+      "qualityPolicy": "Quality policy",
+      "privacyPolicy": "Privacy policy",
+      "cookiesPolicy": "Cookies policy"
+    },
+    "rights": "All rights reserved."
+  },
+  "hero": {
+    "title": "Extra Virgin",
+    "titleExtra": "Olive Oil,",
+    "titleHighlight": "uncompromising",
+    "subtitle": "From Andalusia straight to your kitchen.",
+    "subtitleSecond": "Buy online and taste the difference.",
+    "cta": {
+      "shop": "View products",
+      "varieties": "Discover varieties"
+    },
+    "trust": {
+      "earlyHarvest": {
+        "title": "Early harvest",
+        "subtitle": "October picking"
+      },
+      "coldPressed": {
+        "title": "Cold pressed",
+        "subtitle": "Extraction at <27°C"
+      },
+      "limitedEdition": {
+        "title": "Limited edition",
+        "subtitle": "Numbered production"
+      },
+      "andalusia": {
+        "title": "From Andalusia",
+        "subtitle": "Jaén olive groves"
+      }
+    },
+    "badge": "PREMIUM",
+    "imageAlt": "Bottle of Oiltopía extra virgin olive oil"
+  },
+  "featuredProducts": {
+    "title": "Discover our star oils",
+    "subtitle": "Premium selection of unique varieties, early harvest and limited edition",
+    "products": {
+      "arbequina": {
+        "name": "Arbequina Premium",
+        "variety": "500ml",
+        "description": "Smooth and fruity with almond notes"
+      },
+      "picual": {
+        "name": "Picual Reserve",
+        "variety": "500ml",
+        "description": "Intense and robust with character"
+      },
+      "arbosana": {
+        "name": "Arbosana Selection",
+        "variety": "500ml",
+        "description": "Balanced with herbal touches"
+      },
+      "blend": {
+        "name": "Exclusive Bio 500 Blend",
+        "variety": "750ml",
+        "description": "Limited edition artisan blend"
+      }
+    },
+    "addToCart": "Add to cart",
+    "viewAll": "View all products"
+  },
+  "process": {
+    "title": "Our Process",
+    "subtitle": "From the olive grove to your table, every stage is designed to preserve excellence",
+    "steps": {
+      "harvest": {
+        "title": "Manual Harvest",
+        "description": "Careful selection in October to guarantee the freshness of the fruit"
+      },
+      "coldPress": {
+        "title": "Cold Pressed",
+        "description": "Extraction at <27°C to preserve polyphenols and natural aroma"
+      },
+      "bottling": {
+        "title": "Bottled at Source",
+        "description": "Immediate bottling to seal quality in every drop"
+      },
+      "delivery": {
+        "title": "Direct Shipping",
+        "description": "From the olive grove to your table without intermediaries or delays"
+      }
+    }
+  },
+  "aboutSummary": {
+    "kicker": "Our Story",
+    "title": "From field to bottle",
+    "description": "Company founded in 2009, with over 15 years of excellence. Vertical integration project that controls from the field to the bottle to guarantee premium category.",
+    "cta": "Learn our story",
+    "imageAlt": "Oiltopía olive groves in Andalusia",
+    "certifications": {
+      "title": "Certified quality and sustainability"
+    }
+  }
+}
