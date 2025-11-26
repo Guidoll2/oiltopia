@@ -13,27 +13,26 @@ export default function HeroSection() {
       {/* Subtle texture overlay */}
       <div className="absolute inset-0 bg-[radial-gradient(#00000008_1px,transparent_1px)] [background-size:16px_16px]"></div>
 
-      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-20 sm:py-28 lg:py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 md:px-12 py-20 sm:py-28 md:py-12">
+        <div className="flex flex-col md:grid md:grid-cols-12 gap-12 md:gap-16 md:items-center">
           
-          {/* Content */}
-          <div className="lg:col-span-7 space-y-8 sm:space-y-10">
-            
+          {/* Content - Left Column */}
+          <div className="md:col-span-7 flex flex-col gap-8 sm:gap-10">
             {/* Main Headline */}
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-serif font-light text-neutral-900 leading-[1.1] tracking-tight">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-serif font-light text-neutral-900 leading-[1.1] tracking-tight order-1">
               {t('title')}<br />
               {t('titleExtra')}{' '}
               <span className="italic font-normal">{t('titleHighlight')}</span>
             </h1>
 
             {/* Subheadline */}
-            <p className="text-lg sm:text-xl lg:text-2xl text-neutral-600 leading-relaxed font-light max-w-xl">
+            <p className="text-lg sm:text-xl lg:text-2xl text-neutral-600 leading-relaxed font-light max-w-xl order-2">
               {t('subtitle')}<br />
               {t('subtitleSecond')}
             </p>
 
             {/* CTA Buttons - Premium Luxury Design */}
-            <div className="flex flex-col sm:flex-row gap-5 pt-4">
+            <div className="flex flex-col sm:flex-row gap-5 pt-4 order-3">
               {/* Primary Button - Filled with elegant hover */}
               <button
                 onClick={showDemoMessage}
@@ -63,8 +62,21 @@ export default function HeroSection() {
               </button>
             </div>
 
+            {/* Mobile-only product image shown under CTAs */}
+            <div className="relative w-full aspect-[3/4] bg-neutral-50 rounded-sm overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.12)] mt-6 order-4 md:hidden">
+              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-neutral-100 to-stone-100">
+                <Image
+                  src="/geminihero.png"
+                  alt={t('imageAlt')}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+            </div>
+
             {/* Trust Indicators - Refined */}
-            <div className="pt-12 border-t border-neutral-200">
+            <div className="pt-12 border-t border-neutral-200 order-5 md:order-4">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 {/* Cosecha temprana */}
                 <div className="flex flex-col items-start gap-3 group cursor-default">
@@ -140,12 +152,11 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Product Image */}
-          <div className="lg:col-span-5 relative">
+          {/* Product Image - Right Column */}
+          <div className="hidden md:block md:col-span-5 md:row-span-2 relative order-4 md:order-2 -translate-y-12">
             <div className="relative aspect-[3/4] bg-neutral-50 rounded-sm overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.12)]">
               {/* Placeholder for product image */}
-              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-neutral-100 to-stone-100">
-      
+            
                 <Image
                   src="/geminihero.png"
                   alt={t('imageAlt')}
@@ -154,7 +165,7 @@ export default function HeroSection() {
                   priority
                 />
                
-              </div>
+           
 
               {/* Subtle premium badge */}
               <div className="absolute top-8 right-8 bg-white/95 backdrop-blur-sm rounded-full px-5 py-3 shadow-lg border border-neutral-200/50">
